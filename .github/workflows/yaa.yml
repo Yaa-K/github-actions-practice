@@ -17,7 +17,7 @@ jobs:
       - name: prints progress of build
         run: echo "building in progress"
       - name: checkout code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
   test:
     name: job 2
@@ -28,7 +28,7 @@ jobs:
       - name: prints testing for error
         run: echo "testing for error"
       - name: checkout code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
   deploy:
     name: job 3
@@ -39,7 +39,7 @@ jobs:
       - name: prints finally deployed
         run: echo "finally deployed"
       - name: checkout code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
         
 
         
